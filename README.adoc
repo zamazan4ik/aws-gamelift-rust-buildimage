@@ -1,0 +1,23 @@
+= AWS GameLift Rust builder Docker image
+
+== What is it?
+This is the Git repo of the Docker images for building with Rust on Amazon Linux for AWS GameLift servers. We try to maintain the Docker image with the latest stable Rust version.
+
+Ready to use image you can find here: https://hub.docker.com/r/zamazan4ik/aws-gamelift-rust-builder[Docker Hub].
+
+Both Amazon Linux and Amazon Linux 2-based images can be created.
+
+Current versions:
+
+1. Rust - 1.52.1
+2. Amazon Linux 2 - 2.0.20210421.0
+3. Amazon Linux - 2018.03.0.20210521.1
+
+If you need any other versions or need additional packages - please modify corresponding Docker image.
+
+== Contributing
+If you find any bug, missed functionality or just want to share any feedback - feel free to open an issue. Will be wonderful, if you create a PR - it makes my life much easier. E.g. if you found that the Rust version is a little bit outdated - please send a PR. Thanks in advance!
+
+== Useful links
+1. Original https://github.com/ewbankkit/rust-amazonlinux[repo] with Docker image recipes for AWS Lambda
+2. Another https://github.com/softprops/lambda-rust[repo] with really good Docker image for AWS Lambda

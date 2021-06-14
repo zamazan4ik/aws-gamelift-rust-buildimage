@@ -1,0 +1,4 @@
+.dockerignore
+Dockerfile.al
+Dockerfile.al2
+README.adoc
